@@ -1,0 +1,174 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.center {
+  margin: auto;
+}
+
+.flexContainer {
+  display: flex;
+  overflow: hidden;
+}
+
+.flexLeft {
+  display: flex;
+  justify-content: start;
+}
+
+.flexRight {
+  display: flex;
+  justify-content: end;
+}
+
+.flexCenterH {
+  display: flex;
+  justify-content: center;
+}
+
+.flexSpaceBetweenH {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexSpaceAroundH {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexBottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flexTop {
+  display: flex;
+  align-items: flex-start
+}
+
+.flexCenterV {
+  display: flex;
+  align-items: center;
+}
+
+.flexSpaceBetweenV {
+  display: flex;
+  align-content: space-between;
+}
+
+.flexSpaceAroundV {
+  display: flex;
+  align-content: space-around;
+}
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexFit {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+/* RELATIVE SIZING */
+
+.tenth {
+  width: 10%;
+}
+
+.fif {
+  width: 20%;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.thurdy {
+  width: 30%;
+}
+
+.third {
+  width: 33.3%;
+}
+
+.foedee {
+  width: 40%;
+}
+
+.colt45 {
+  width: 45%;
+}
+
+.fiddy {
+  width: 50%;
+}
+
+.sixty {
+  width: 60%;
+}
+
+.seventy {
+  width: 70%;
+}
+
+.threeQuarter {
+  width: 75%;
+}
+
+.ayyydee {
+  width: 80%;
+}
+
+.ninety {
+  width: 90%;
+}
+
+.onehundo {
+  width: 100%;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.container {
+  overflow: hidden;
+}
+
+.danIMG {
+  height: 15.625rem;
+  object-fit: cover;
+}
+
+.pad5 {
+  padding: 5px;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 700px) {
+  .danIMG {
+    height: 8rem;
+    object-fit: cover;
+  }
+}
+  
+}
